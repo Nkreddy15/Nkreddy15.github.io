@@ -1,0 +1,9 @@
+{
+  "name": "nkreddy15-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nikhil Reddy's static portfolio for nkreddy15.com, ready for GitHub Pages.",
+  "scripts": {
+    "check": "node --check site-data.js && node --check app.js && node scripts/check-site.mjs"
+  }
+}
