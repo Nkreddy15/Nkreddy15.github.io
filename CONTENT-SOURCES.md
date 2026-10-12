@@ -62,3 +62,10 @@ The interface was updated at the owner's request on 10 October 2026: dark surfac
 - Poetry book: https://www.amazon.in/Truth-Other-Beautiful-NIKHIL-REDDY-ebook/dp/B0G2TLH6B5 — official search result matches title and author; page could not be opened by retrieval tool.
 - Football captaincy and school acrylic painting award: user supplied personal history.
 - Background: black base tokens and inline critical background added; fluid animation retained.
+
+## Uploaded certificates — 12 October 2026
+
+- `assets/certificates/Infosys-Springboard-Java-Language-Features.pdf`: original uploaded course completion certificate, awarded to Chalamalla Nikhil Kumar Reddy by Infosys Springboard for Java Language Features; issued 29 October 2022. Details checked against extracted text and the rendered certificate. Presented as course completion, not a professional certification.
+- `assets/certificates/Edugene-Technologies-Python-Internship.pdf`: original uploaded internship certificate letter from Edugene Technologies Pvt. Ltd., dated 2 December 2022. The letter explicitly states a two-month Python internship from 29 September to 29 November 2022. Details checked against the rendered scan and OCR; no additional responsibilities or performance claims inferred.
+- Both original PDFs are published unchanged, with view and download links in the existing Certificates section. The existing publication certificate remains available.
+

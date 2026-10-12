@@ -257,7 +257,7 @@
   }
 
   if ("IntersectionObserver" in window) {
-    const sections = document.querySelectorAll("#work, #about, #research, #contact");
+    const sections = document.querySelectorAll("#work, #about, #research, #certificates, #contact");
     const sectionObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
@@ -270,3 +270,4 @@
     sections.forEach((section) => sectionObserver.observe(section));
   }
 })();
+

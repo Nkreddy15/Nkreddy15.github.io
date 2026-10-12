@@ -104,7 +104,7 @@ document.querySelectorAll = (selector) => {
   if (selector === '.project-card[data-category]') return byClass('project-card');
   if (selector === '.filter') return byClass('filter');
   if (selector === '[data-project]') return parsedElements.filter((element) => element.dataset.project);
-  if (selector === '#work, #about, #research, #contact') return ['work', 'about', 'research', 'contact'].map(byId);
+  if (selector === '#work, #about, #research, #certificates, #contact') return ['work', 'about', 'research', 'certificates', 'contact'].map(byId);
   if (selector === '.project-card, .lab-card') return [...byClass('project-card'), ...byClass('lab-card')];
   if (selector === '.reveal') return byClass('reveal');
   if (selector.startsWith('.section-heading,')) return [...byClass('section-heading'), ...byClass('project-card'), ...byClass('research-paper'), ...byClass('about-title-column'), ...byClass('about-content'), ...byClass('lab-card'), ...byClass('beyond-section'), ...byClass('contact-section')];
@@ -228,3 +228,4 @@ assert(body.classList.contains('tab-inactive'));
 
 console.log('PASS: assets, all 9 repositories, filters, 7 dialogs, menu, clipboard, focus, progress, pointer motion bounds, pause/resume, scroll entrances, reduced motion, and inactive-tab pause.');
 console.log('Browser rendering and layout are not covered by these checks.');
+
