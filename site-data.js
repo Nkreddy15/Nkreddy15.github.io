@@ -26,6 +26,22 @@ const PORTFOLIO_PROJECTS = Object.freeze({
     evidence: "https://github.com/Nkreddy15/ginkgo-admet-predictive-modeling/blob/main/docs/INDIVIDUAL_CONTRIBUTION.md",
     evidenceLabel: "Contribution & evidence"
   },
+  rag: {
+    title: "RAG Evaluation Workbench",
+    category: "Generative AI / Independent project",
+    summary: "A Streamlit workbench for document question answering, retrieval comparisons, and inspection of the passages behind generated answers.",
+    technologies: ["Python", "Streamlit", "pypdf", "OpenAI API", "TF-IDF"],
+    contributions: [
+      "Extracted and chunked searchable PDF text while retaining page numbers.",
+      "Implemented keyword overlap and TF-IDF cosine retrieval with a configurable number of passages.",
+      "Created a 40-question sample benchmark with ten unanswerable cases and downloadable per-question results.",
+      "Added optional cited OpenAI answers and checks for citation precision, expected phrases, and abstention."
+    ],
+    learning: "The sample benchmark checks the workflow on a small fictional handbook. A broader corpus and more varied questions would help measure how well the retrievers generalize.",
+    repo: "https://github.com/Nkreddy15/Rag-eval-workbench",
+    evidence: "https://github.com/Nkreddy15/Rag-eval-workbench/blob/main/RUN.md",
+    evidenceLabel: "Run locally"
+  },
   attrition: {
     title: "Employee attrition prediction API",
     category: "Applied machine learning / Independent project",
